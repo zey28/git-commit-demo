@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "commitlint": "^17.4.2",
+    "husky": "^8.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "commit-msg": "commitlint -e",
+    "commit-msg1": "commitlint --config commitlint.config -e -V"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
